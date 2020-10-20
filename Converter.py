@@ -7,7 +7,7 @@ for line in lines:
     currencyDict[parsed[0]] = parsed[1]
 
 amount = int(input("Enter Amount:\n"))
-print("Enter tyhe name of the Currency you wnat to convert"
+print("Enter the name of the Currency you wnat to convert"
       "this amount to? Availabe options:\n")
 [print(item) for item in currencyDict.keys()]
 currency = input("Please Enter one of These Values")
