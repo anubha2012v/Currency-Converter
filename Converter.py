@@ -11,6 +11,6 @@ amount = int(input("Enter Amount:\n"))
 print("Enter the name of the Currency you wnat to convert"
       "this amount to? Availabe options:\n")
 [print(item) for item in currencyDict.keys()]
-currency = input("Please Enter one of These Values")
+currency = input("Please Enter one of these Values")
 print(f"{amount} INR is equal to {amount * float(currencyDict[currency])} {currency}")
 
