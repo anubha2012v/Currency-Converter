@@ -1,3 +1,4 @@
+#here we have taken currency.txt as it will fetch data from there.
 with open('currencydata.txt') as f:
     lines = f.readlines()
 
